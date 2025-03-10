@@ -12,7 +12,6 @@ body {
 }
   
 #timer {
-  color: #183059;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -27,6 +26,8 @@ body {
   border-radius: 5px;
   background: #eeeeee;
   color: #183059;
+  text-align: center;
+  font-weight: bold;
 }
 
 .numbers {
@@ -35,7 +36,6 @@ body {
   text-align: center;
   color: #183059;
 }
-
     </style>
 </head>
 <body>
@@ -53,7 +53,7 @@ body {
 
 <script>
     const year = new Date().getFullYear();
-    const myDate = new Date('Nov 2, 2026 00:00:00');
+    const myDate = new Date('Oct 15, 2024 00:00:00');
 
     let timer = setInterval(function() {
       const today = new Date().getTime();
